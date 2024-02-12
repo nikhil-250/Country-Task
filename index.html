@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/0aa454695c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>SideBar</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center py-4">
+        <h1 class="text-warning">World Countries Data</h1>
+        <h6 class="text-white">Currently,we have 250 countries</h6>
+      </div>
+    </div>
+    <div class="row bg-light pb-4">
+      <div class="col-md-6 offset-md-3">
+        <input type="text" placeholder="Search countries by name city amd language" id="searchbar"
+          class="form-control searchbar mt-4 mb-4 py-4 mb-2">
+        <div class="text-center d-flex justify-content-between">
+          <buttton class="btn btn-warning bttn" id="name">name<i class="fa-solid fa-arrow-up ml-2" id="nameIcon"></i></buttton>
+          <buttton class="btn btn-warning bttn" id="capital">capital<i class="fa-solid fa-arrow-up ml-2" id="capitalIcon"></i></buttton>
+          <buttton class="btn btn-warning bttn" id="population">population<i class="fa-solid fa-arrow-up ml-2" id="populationIcon"></i>
+          </buttton>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="row py-4" id="cards">
+      </div>
+  </div>
+  </section>
+  <script src="./assets/js/utility.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <script src="https://kit.fontawesome.com/0aa454695c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.searchbar{
+  /* margin: 0 auto; */
+  border-radius: 50px;
+}
+.bttn{
+  width: 30%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+.imgprop{
+  height: 100%;
+  text-align: center;
+  color: orange;
+}
+img {
+  height: 75px;
+  margin-top: 5px;
+  margin-bottom: 31px;
+}
+.card{
+  height: 400px;
+  margin-bottom: 10px;
+}
